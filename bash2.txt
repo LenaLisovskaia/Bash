@@ -1,0 +1,33 @@
+  
+touch ~/bash2.txt
+cd
+pwd
+mkdir ~/test3
+echo -e "row1\nrow2\nrow3\nrow4" > ~/test3/4
+echo -e "row1\nrow2\nrow3\nrow4" > ~/test3/5
+echo -e "row1\nrow2\nrow3\nrow4" > ~/test3/6
+grep "row2" ~/test3/5
+grep "row" ~/test3/6 
+grep -c "row" ~/test3/6
+find ~/test3 -name "5"
+find ~/test3 -name "5"
+find ~/test3 -name "5" -exec rm -f     
+find ~/test3 -name "5" -exec rm -f +   
+find ~/test3 -name "5" -exec rm -f {} +
+
+593  echo "test" >> ~/test3/4\n
+  594  cat ~/test3/4\n
+  595  nano ~/test3/4\n
+  596  cat ~/test3/4\n
+  597  echo "test" >> ~/test3/4\n
+  598  cat ~/test3/4\n
+  599  ps aux
+  600  kill 666\n
+  601  ping rusau.net\n
+  602  ping -c 5 rusau.ne
+  603  ping -c 5 rusau.net\n
+  604  curl -X 'GET' 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+  605  curl -X GET 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold  
+  606  curl -X GET 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold'\n
+  607  curl -X POST\n 'https://petstore.swagger.io/v2/pet' \\n  -H 'Content-Type: application/json' \\n  -d '{\n  "id": 666,\n  "category": {\n    "id": 3,\n    "name": "-"\n  },\n  "name": "Lucius",\n  "photoUrls": [\n    "string"\n  ],\n  "tags": [\n    {\n      "id": 6,\n      "name": "tagged"\n    }\n  ],\n  "status": "available"\n}'\n
+  608  curl -X POST 'https://petstore.swagger.io/v2/user' \\n  -H 'Content-Type: application/json' \\n  -d '{\n  "id": 666,\n  "username": "LM",\n  "firstName": "Lucius",\n  "lastName": "Malfoy",\n  "email": "mail@m.com",\n  "password": "pass",\n  "phone": "666",\n  "userStatus": 1\n}'

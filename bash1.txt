@@ -1,0 +1,50 @@
+touch bash1.txt
+cd ~
+% pwd
+mkdir test1
+% cd test1
+toch 1 2 3
+zsh: command not found: toch
+touch 1 2 3
+ls
+1	2	3
+% cd
+mkdir ~/test2
+rmdir ~/test2
+rm ~test1/2
+zsh: no such user or named directory: test1
+rm test1/2
+mkdir ~/test3
+cd ~/test3
+touch 4 5
+rm -r ~/test3
+mkdir ~/test4
+cd
+mv ~/test1/1 ~/test1/3 ~test4/
+zsh: no such user or named directory: test4
+mv ~/test1/1 ~/test1/3 test4/ 
+echo "first line">> test1/1
+echo "second line">> test1/1
+echo "third line">> test1/1
+cat test1/1
+first line
+second line
+third line
+ echo ""line" >>test4/3
+dquote> cat test1/1
+dquote> 
+echo "line" >>test4/3 
+echo "line" >>test4/3
+echo "line" >>test4/3
+cat test1/1 test4/3
+first line
+second line
+third line
+line
+line
+line
+vim test1/1
+cat test1/1
+L
+O
+L
