@@ -1,1 +1,1 @@
-#  🧠 Learning main bash commands 
+#  🧠 Learning main bash commands ⬆️
