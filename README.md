@@ -1,1 +1,1 @@
-# git-bash
+#  🧠 Learning main bash commands 
